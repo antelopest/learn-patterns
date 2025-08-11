@@ -6,7 +6,8 @@
 
 ## Вводные темы:
 
-1. Основные понятия (паттерн, антипаттерн, SOLID-принципы)
+1. Основные понятия (паттерн, антипаттерн, SOLID-принципы, GRASP-принципы, DRY, KISS, YAGNI, Law of Demeter (принцип
+   минимального знания)).
 2. Различия в реализации паттернов на JS (динамическая типизация) и TS (статическая типизация, интерфейсы, generics).
 
 ### Полезные ресурсы:
@@ -43,5 +44,54 @@
 4. Iterator (итератор)
 5. State (состояние)
 
-## Продвинутые темы
+## Современные и дополнительные паттерны
 
+* Dependency Injection (DI)
+* Repository
+* Service Layer
+* Unit Of Work
+* Specification Pattern
+* Null Object
+* Event Sourcing
+* CQRS (Command Query Responsibility Segregation)
+* Publish/Subscribe
+* Pipeline
+* Saga Pattern (в микросервисах)
+
+## Архитектурные партерны
+
+* MVC (Model - View - Controller)
+* MVP (Model - View - Presenter)
+* MVVM (Model - View - ViewModel)
+* Layered Architecture
+* Hexagonal Architecture (Ports and Adapters)
+* Clean Architecture (Robert C. Martin)
+* Event-Driven Architecture
+* Microservices
+* Monolith/Modular Monolith
+* Serverless Patterns
+
+## Паттерны для JavaScript и Frontend
+
+* Module Pattern
+* Revealing Module Pattern
+* Observer (EventEmitter)
+* Pub/Sub
+* Factory Function
+* Mixin
+* Prototype Pattern
+* Mediator в UI
+* State в React/Angular
+* Command для Undo/Redo
+* Strategy для смены алгоритмов рендера
+* Proxy для реактивности
+
+## Паттерны для асинхронности и потоков данных
+
+* Callback Pattern
+* Promise Chain
+* Async/Await Wrapper
+* Observable/Pub-Sub для событий
+* Iterator/Async Iterator
+* Reactive Streams (RxJS)
+* Backpressure Handing Patterns
