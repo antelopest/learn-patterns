@@ -26,7 +26,7 @@
 
 ### Creational patterns (Создание объектов)
 
-1. Singleton (одиночка)
+1. [Singleton (одиночка)](02.%20Основные%20паттерны/01.%20Creational%20patterns/01.%20Singleton%20(Одиночка)/01.%20Singleton%20(одиночка).md)
 2. Factory Method (фабричный метод)
 3. Abstract Factory (абстрактная фабрика)
 4. Builder (строитель)
