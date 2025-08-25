@@ -8,6 +8,7 @@
 
 1. [SOLID-принципы](01.%20Intro/02.%20SOLID.md)
 2. [DRY-принцип](01.%20Intro/03.%20DRY.md)
+3. [KISS](01.%20Intro/04.%20KISS.md)
 
 1. Основные понятия (паттерн, антипаттерн, SOLID-принципы, GRASP-принципы, DRY, KISS, YAGNI, Law of Demeter (принцип
    минимального знания)).
