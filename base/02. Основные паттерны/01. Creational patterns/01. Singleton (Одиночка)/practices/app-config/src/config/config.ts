@@ -1,5 +1,5 @@
-class AppConfig {
-    private static instance: AppConfig;
+export default class Config {
+    private static instance: Config;
 
     public readonly apiUrl: string;
     public readonly port: number;
@@ -12,11 +12,11 @@ class AppConfig {
         this.mode = "development";
     }
 
-    public static getInstance(): AppConfig {
-        if (!AppConfig.instance) {
-            AppConfig.instance = new AppConfig();
+    public static getInstance(): Config {
+        if (!Config.instance) {
+            Config.instance = new Config();
         }
-        return AppConfig.instance;
+        return Config.instance;
     }
 
     public printConfig() {
